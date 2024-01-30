@@ -1,0 +1,23 @@
+  ADDR B1 B2 B3 B4 D:\253505\3term\KProg-assembler\LabRab3\help_    PAGE       1
+
+                    org $8000
+  8000 CE 82 00     ldx #$8200
+  8003 18 CE 82 0F  ldy #$820f
+  8007 CC 00 00     ldd #$0000
+
+                   iteration:
+  800A E7 00        stab 0,x
+  800C 5C           incb
+  800D 8C 82 FF     cpx #$82ff
+  8010 27 04        beq end
+  8012 08           inx
+  8013 7E 80 0A     jmp iteration
+
+                   end:
+  8016 3F           swi
+
+
+  Symbol Table 
+
+  ITERATION          800A
+  END                8016

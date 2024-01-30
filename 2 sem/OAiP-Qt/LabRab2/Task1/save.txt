@@ -1,0 +1,3 @@
+666 AIRBUS minsk 13:49
+777 AIRBUS2 mogilev 14:45
+888 AIRBUS3 bobbr 19:00

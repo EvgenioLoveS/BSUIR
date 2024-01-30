@@ -1,0 +1,17 @@
+  ADDR B1 B2 B3 B4 D:\253505\3term\KProg-assembler\LabRab2\task1.   PAGE       1
+
+                    org $8000
+  8000 86 FA        ldaa #%11111010
+  8002 97 20        staa $20
+  8004 D6 20        ldab $20
+  8006 48           lsla
+  8007 48           lsla
+  8008 48           lsla
+  8009 48           lsla
+  800A 54           lsrb
+  800B 54           lsrb
+  800C 54           lsrb
+  800D 54           lsrb
+  800E D7 21        stab $21
+  8010 9A 21        oraa $21
+

@@ -1,0 +1,12 @@
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\bin\Debug\net7.0\StreamServiceLib.deps.json
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\bin\Debug\net7.0\StreamServiceLib.dll
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\bin\Debug\net7.0\StreamServiceLib.pdb
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.csproj.AssemblyReference.cache
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.AssemblyInfoInputs.cache
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.AssemblyInfo.cs
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.csproj.CoreCompileInputs.cache
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.dll
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\refint\StreamServiceLib.dll
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\StreamServiceLib.pdb
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab12\StreamServiceLib\obj\Debug\net7.0\ref\StreamServiceLib.dll

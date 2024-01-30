@@ -1,0 +1,324 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+lab4.exe -- emu8086 assembler version: 4.05  
+ 
+[ 02.12.2023  --  22:02:00 ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       .data
+[   2]        :                                       
+[   3]    0000: 20                                    spaceSymbol db ' '
+[   4]    0001: 0D 0A 24                              newline  db 0dh,0ah,'$'
+[   5]    0004: 45 6E 74 65 72 20 74 68 65 20 73 74   promptString db 'Enter the string: ','$'
+                72 69 6E 67 3A 20 24                
+[   6]    0017: 45 6E 74 65 72 20 74 68 65 20 77 6F   promptWord db 'Enter the word to delete: ', '$'
+                72 64 20 74 6F 20 64 65 6C 65 74 65 
+                3A 20 24                            
+[   7]    0032: 52 65 73 75 6C 74 3A 20 24            resultString db 'Result: ', '$'
+[   8]    003B: 65 72 72 6F 72 20 28 74 68 65 20 73   errorMessage db 'error (the string is empty/contains only spaces). Try again!',0dh,0ah,'$'
+                74 72 69 6E 67 20 69 73 20 65 6D 70 
+                74 79 2F 63 6F 6E 74 61 69 6E 73 20 
+                6F 6E 6C 79 20 73 70 61 63 65 73 29 
+                2E 20 54 72 79 20 61 67 61 69 6E 21 
+                0D 0A 24                            
+[   9]    007A: 2F                                    cmpSymbol db '/'
+[  10]    007B: 28                                    bufferForFinish db 40
+[  11]    007C: 28                                    bufferForString db 40
+[  12]    007D: 00                                    inputStringLength db 0
+[  13]    007E: 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F   inputString db 200 dup('/')
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+                2F 2F 2F 2F 2F 2F 2F 2F             
+[  14]    0146: 28                                    bufferForWord db 40
+[  15]    0147: 00                                    wordLength db 0
+[  16]    0148: 24 24 24 24 24 24 24 24 24 24 24 24   targetWord db 200 dup('$')
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24 24 24 24 24 
+                24 24 24 24 24 24 24 24             
+[  17]        :                                       
+[  18]        :                                       ends
+[  19]        :                                       
+[  20]        :                                       .stack
+[  21]    0310: 00 00 00 00 00 00 00 00 00 00 00 00   dw   256  dup(0)
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00             
+[  22]        :                                       ends
+[  23]        :                                       
+[  24]        :                                       .code
+[  25]        :                                       
+[  26]        :                                       displayMessage macro MessageToDisplay
+[  27]        :                                       mov ah,09h
+[  28]        :                                       lea dx, MessageToDisplay
+[  29]        :                                       int 21h
+[  30]        :                                       endm
+[  31]        :                                       
+[  32]        :                                       getUserInputString macro buffer
+[  33]        :                                       mov ah,0Ah
+[  34]        :                                       lea dx, buffer
+[  35]        :                                       int 21h
+[  36]        :                                       endm
+[  37]        :                                       
+[  38]    0510:                                       isEmptyOrSpaces proc
+[  39]    0510: 33 C9                                 xor cx, cx
+[  40]    0512: 8A 0E 7D 00                           mov cl, bufferForString+1
+[  41]    0516: 33 DB                                 xor bx, bx
+[  42]    0518: 80 F9 00                              cmp cl, 0h
+[  43]    051B: 74 17                                 je error
+[  44]        :                                       
+[  45]    051D: BE 7E 00                              mov si, offset bufferForString+2
+[  46]    0520:                                       isVoidLoop:
+[  47]    0520: 8A 04                                 mov al, [si]
+[  48]    0522: 3C 20                                 cmp al, 20h
+[  49]    0524: 74 02                                 je PlusSpace
+[  50]    0526: EB 01                                 jmp skip
+[  51]        :                                       
+[  52]    0528:                                       PlusSpace:
+[  53]    0528: 43                                    inc bx
+[  54]        :                                       
+[  55]    0529:                                       skip:
+[  56]    0529: 46                                    inc si
+[  57]        :                                       
+[  58]    052A: E2 F4                                 loop isVoidLoop
+[  59]        :                                       
+[  60]    052C: 3A 1E 7D 00                           cmp bl, bufferForString+1
+[  61]    0530: 74 02                                 je error
+[  62]    0532: EB 09                                 jmp return
+[  63]        :                                       
+[  64]    0534:                                       error:
+[  65]    0534: BA 3B 00                              mov dx, offset errorMessage
+[  66]    0537: B4 09                                 mov ah, 9h
+[  67]    0539: CD 21                                 int 21h
+[  68]    053B: EB 08                                 jmp reenter
+[  69]        :                                       
+[  70]    053D:                                       return:
+[  71]    053D: C3                                    ret
+[  72]        :                                       
+[  73]        :                                       isEmptyOrSpaces endp
+[  74]        :                                       
+[  75]    053E:                                       start:
+[  76]        :                                       
+[  77]    053E: B8 00 00                              mov ax, data
+[  78]    0541: 8E D8                                 mov ds, ax
+[  79]    0543: 8E C0                                 mov es, ax
+[  80]    0545:                                       reenter:
+[  81]    0545: B4 09 BA 04 00 CD 21                  displayMessage promptString
+[  82]    054C: B4 0A BA 7C 00 CD 21                  getUserInputString bufferForString
+[  83]    0553: E8 BA FF                              call isEmptyOrSpaces
+[  84]    0556: B4 09 BA 01 00 CD 21                  displayMessage newline
+[  85]    055D: B4 09 BA 17 00 CD 21                  displayMessage promptWord
+[  86]    0564: B4 0A BA 46 01 CD 21                  getUserInputString bufferForWord
+[  87]    056B: B4 09 BA 01 00 CD 21                  displayMessage newline
+[  88]        :                                       
+[  89]    0572: B9 00 00                              mov cx,0
+[  90]    0575: 8A 0E 7D 00                           mov cl,bufferForString[1]
+[  91]        :                                       
+[  92]        :                                       ;if word is empty  go end
+[  93]    0579: BA 00 00                              mov dx,0
+[  94]    057C: 8A 16 47 01                           mov dl,bufferForWord[1]
+[  95]    0580: 0B D2                                 or dx,dx
+[  96]    0582: 74 4A                                 jz endProgram          ; if 0
+[  97]        :                                       
+[  98]    0584: BE 7E 00                              lea si,inputString[0]
+[  99]    0587: 8B FE                                 mov di,si
+[ 100]        :                                       
+[ 101]    0589:                                       findNextWord: ;looking for symbol
+[ 102]    0589: AC                                    lodsb
+[ 103]    058A: 3A 06 00 00                           cmp al,spaceSymbol
+[ 104]    058E: 74 03                                 jz startNewWord ;if != " " go to newWord
+[ 105]    0590: E2 F7                                 loop findNextWord ;else go to for
+[ 106]    0592: 46                                    inc si ;when i want to delete last word
+[ 107]        :                                       
+[ 108]    0593:                                       startNewWord:
+[ 109]    0593: 9C                                    pushf
+[ 110]    0594: FC                                    cld
+[ 111]    0595: 8B C6                                 mov ax,si      ; ax = si count length of word in string
+[ 112]    0597: 2B C7                                 sub ax,di      ; ax = ax - di
+[ 113]    0599: 48                                    dec ax         ; ax - 1
+[ 114]    059A: 3B C2                                 cmp ax,dx      ; if ax == dx
+[ 115]    059C: 75 29                                 jne continueSearching ; if(wordInString.Length != wordForDelete.Length)
+[ 116]        :                                       
+[ 117]        :                                       ;comparer
+[ 118]    059E: 56                                    push    si     ; add in stack
+[ 119]    059F: 57                                    push    di
+[ 120]    05A0: 51                                    push    cx
+[ 121]    05A1: 06                                    push    es
+[ 122]    05A2: 1E                                    push    ds
+[ 123]    05A3: 07                                    pop     es
+[ 124]    05A4: 8B CA                                 mov     cx, dx
+[ 125]    05A6: BE 48 01                              lea     si, targetWord[0]  ;comparer if (word in string - bufferForWord = 0) word in string=buferForWord
+[ 126]    05A9: F3 A6                                 repe    cmpsb ; cmp while symbols = (sym1 = sym2)
+[ 127]    05AB: 07                                    pop     es
+[ 128]    05AC: 59                                    pop     cx
+[ 129]    05AD: 5F                                    pop     di
+[ 130]    05AE: 5E                                    pop     si
+[ 131]        :                                       
+[ 132]    05AF: 75 16                                 jne     continueSearching
+[ 133]    05B1: E3 11                                 jcxz    skipCopy ; if cx = 0
+[ 134]        :                                       
+[ 135]        :                                       ;remove
+[ 136]    05B3: 51                                    push    cx
+[ 137]    05B4: 56                                    push    si
+[ 138]    05B5: 57                                    push    di
+[ 139]    05B6: 06                                    push    es
+[ 140]    05B7: 1E                                    push    ds
+[ 141]    05B8: 07                                    pop     es
+[ 142]    05B9: 41                                    inc     cx
+[ 143]    05BA: F3 A4                                 rep movsb ; repeat while cx != 0
+[ 144]    05BC: 07                                    pop     es
+[ 145]    05BD: 5F                                    pop     di
+[ 146]    05BE: 5E                                    pop     si
+[ 147]    05BF: 59                                    pop     cx
+[ 148]    05C0: 8B F7                                 mov     si, di
+[ 149]        :                                       
+[ 150]    05C2: E2 C5                                 loop findNextWord
+[ 151]        :                                       
+[ 152]    05C4:                                       skipCopy:
+[ 153]    05C4: 41                                    inc cx
+[ 154]    05C5: F3 A4                                 rep     movsb
+[ 155]        :                                       
+[ 156]    05C7:                                       continueSearching:
+[ 157]    05C7: 9D                                    popf
+[ 158]    05C8: 8B FE                                 mov     di, si ; di = si
+[ 159]    05CA: E3 02                                 jcxz    endProgram ; if(cx==0) go to end
+[ 160]    05CC: E2 BB                                 loop    findNextWord ; else go to for
+[ 161]        :                                       
+[ 162]    05CE:                                       endProgram:
+[ 163]    05CE: B4 09 BA 32 00 CD 21                  displayMessage resultString
+[ 164]        :                                       
+[ 165]    05D5: 33 C9                                 xor cx, cx
+[ 166]    05D7: BE 7E 00                              mov si, offset inputString
+[ 167]    05DA: B1 28                                 mov cl, 40
+[ 168]    05DC: B4 02                                 mov ah, 02h
+[ 169]        :                                       
+[ 170]    05DE:                                       printLoop:
+[ 171]    05DE: 8A 14                                 mov dl, [si]
+[ 172]    05E0: 8A 1E 7A 00                           mov bl,cmpSymbol
+[ 173]    05E4: 8A 04                                 mov al,[si]
+[ 174]    05E6: 3A C3                                 cmp al,bl
+[ 175]    05E8: 74 05                                 je final
+[ 176]    05EA: CD 21                                 int 21h
+[ 177]    05EC: 46                                    inc si
+[ 178]    05ED: E2 EF                                 loop printLoop
+[ 179]        :                                       
+[ 180]    05EF:                                       final:
+[ 181]    05EF: B8 00 4C                              mov ax, 4c00h
+[ 182]    05F2: CD 21                                 int 21h
+[ 183]    05F4: CD 20                                 int 20h
+[ 184]        :                                       ends
+[ 185]        :                                       
+[ 186]        :                                       end start
+[ 187]        :                                       
+ 
+===================================================================================================
+ 
+EXE HEADER - bytes from 0000 to 01FF inclusive.
+
+0000: 4D      -   exe signature (M)
+0001: 5A      -   exe signature (Z)
+0002: F6      -   bytes on last page (l.byte)
+0003: 01      -   bytes on last page (h.byte)
+0004: 04      -   512 byte pages in file (l.byte)
+0005: 00      -   512 byte pages in file (h.byte)
+0006: 01      -   relocations (l.byte)
+0007: 00      -   relocations (h.byte)
+0008: 20      -   paragraphs in header (l.byte)
+0009: 00      -   paragraphs in header (h.byte)
+000A: 00      -   minimum memory (l.byte)
+000B: 00      -   minimum memory (h.byte)
+000C: FF      -   maximum memory (l.byte)
+000D: FF      -   maximum memory (h.byte)
+000E: 21      -   SS - stack segment (l.byte)
+000F: 00      -   SS - stack segment (h.byte)
+0010: 00      -   SP - stack pointer (l.byte)
+0011: 01      -   SP - stack pointer (h.byte)
+0012: 78      -   check sum (l.byte)
+0013: BF      -   check sum (h.byte)
+0014: 2E      -   IP - instruction pointer (l.byte)
+0015: 00      -   IP - instruction pointer (h.byte)
+0016: 51      -   CS - code segment (l.byte)
+0017: 00      -   CS - code segment (h.byte)
+0018: 1E      -   relocation table adress (l.byte)
+0019: 00      -   relocation table adress (h.byte)
+001A: 00      -   overlay number (l.byte)
+001B: 00      -   overlay number (h.byte)
+001C: 01      -   signature (l.byte)
+001D: 00      -   signature (h.byte)
+001E: 2F      -   relocation table - offset inside segment (l.byte)
+001F: 00      -   relocation table - offset inside segment (h.byte)
+0020: 51      -   relocation table - segment anchor (l.byte)
+0021: 00      -   relocation table - segment anchor (h.byte)
+0022 to 01FF  -   reserved relocation area  (00) 
+
+
+
+
+===================================================================================================

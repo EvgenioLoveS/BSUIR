@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_253504_zhgutov_Lab11", "_253504_zhgutov_Lab11\_253504_zhgutov_Lab11.csproj", "{C2CDD50E-6735-4A61-8CAE-58FC7CD8CFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations", "Calculations\Calculations.csproj", "{7A528402-5202-4533-ADA4-89442562B21B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CDD50E-6735-4A61-8CAE-58FC7CD8CFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CDD50E-6735-4A61-8CAE-58FC7CD8CFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CDD50E-6735-4A61-8CAE-58FC7CD8CFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CDD50E-6735-4A61-8CAE-58FC7CD8CFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A528402-5202-4533-ADA4-89442562B21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A528402-5202-4533-ADA4-89442562B21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A528402-5202-4533-ADA4-89442562B21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A528402-5202-4533-ADA4-89442562B21B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

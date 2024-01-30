@@ -1,0 +1,40 @@
+  ADDR B1 B2 B3 B4 D:\253505\3term\KProg-assembler\LabRab3\task1.   PAGE       1
+
+                    org $8000
+  8000 CE 82 00     ldx #$8200
+  8003 18 CE 82 FF  ldy #$82ff
+  8007 18 FF 83 10  sty $8310
+
+                   loop:
+  800B EC 00        ldd $0,x
+  800D 11           cba
+  800E 25 09        bcs exchange_values
+
+                   next_element:
+  8010 08           inx
+  8011 BC 83 10     cpx $8310
+  8014 27 0A        beq previous_element_loop
+  8016 7E 80 0B     jmp loop
+
+                   exchange_values:
+  8019 E7 00        stab $0,x
+  801B A7 01        staa $1,x
+  801D 7E 80 10     jmp next_element
+
+                   previous_element_loop:
+  8020 7A 83 11     dec $8311
+  8023 CE 82 00     ldx #$8200
+  8026 BC 83 10     cpx $8310
+  8029 27 03        beq end
+  802B 7E 80 0B     jmp loop
+
+                   end:
+  802E 3F           swi
+
+  Symbol Table 
+
+  EXCHANGE_VALUES    8019
+  NEXT_ELEMENT       8010
+  END                802E
+  PREVIOUS_ELEMENT_LOOP 8020
+  LOOP               800B

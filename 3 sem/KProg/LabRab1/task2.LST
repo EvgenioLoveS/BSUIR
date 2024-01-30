@@ -1,0 +1,12 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+  C000 86 02        ldaa #2 ;
+  C002 C6 03        ldab #3 ;
+  C004 3D           mul
+  C005 17           tba
+  C006 C6 02        ldab #2 ;
+  C008 1B           aba
+  C009 16           tab
+  C00A CE 81 00     ldx #$8100  ;
+  C00D 3A           abx
+                               ; =   + (_ *   +  )

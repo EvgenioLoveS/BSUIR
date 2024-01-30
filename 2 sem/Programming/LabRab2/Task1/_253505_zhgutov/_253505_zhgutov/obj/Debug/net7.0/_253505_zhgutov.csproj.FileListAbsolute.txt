@@ -1,0 +1,15 @@
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\bin\Debug\net7.0\_253505_zhgutov.exe
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\bin\Debug\net7.0\_253505_zhgutov.deps.json
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\bin\Debug\net7.0\_253505_zhgutov.runtimeconfig.json
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\bin\Debug\net7.0\_253505_zhgutov.dll
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\bin\Debug\net7.0\_253505_zhgutov.pdb
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.csproj.AssemblyReference.cache
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.AssemblyInfoInputs.cache
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.AssemblyInfo.cs
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.csproj.CoreCompileInputs.cache
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.dll
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\refint\_253505_zhgutov.dll
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.pdb
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\_253505_zhgutov.genruntimeconfig.cache
+D:\253505\OAiP\2sem\C#\LabRab2\Task1\_253505_zhgutov\_253505_zhgutov\obj\Debug\net7.0\ref\_253505_zhgutov.dll

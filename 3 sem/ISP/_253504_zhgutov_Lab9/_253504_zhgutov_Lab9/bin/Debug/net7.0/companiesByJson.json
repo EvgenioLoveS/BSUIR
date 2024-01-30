@@ -1,0 +1,97 @@
+[
+  {
+    "HrDepartment": {
+      "Vacancies": [
+        "Vacancy1",
+        "Vacancy2"
+      ],
+      "Employees": [
+        {
+          "Name": "Employee1"
+        },
+        {
+          "Name": "Employee2"
+        }
+      ],
+      "NumberOfEmployees": 2
+    },
+    "Name": "Company1",
+    "NumberOfEmployees": 2
+  },
+  {
+    "HrDepartment": {
+      "Vacancies": [
+        "Vacancy3",
+        "Vacancy4"
+      ],
+      "Employees": [
+        {
+          "Name": "Employee3"
+        },
+        {
+          "Name": "Employee4"
+        }
+      ],
+      "NumberOfEmployees": 2
+    },
+    "Name": "Company2",
+    "NumberOfEmployees": 2
+  },
+  {
+    "HrDepartment": {
+      "Vacancies": [
+        "Vacancy5",
+        "Vacancy6"
+      ],
+      "Employees": [
+        {
+          "Name": "Employee5"
+        },
+        {
+          "Name": "Employee6"
+        }
+      ],
+      "NumberOfEmployees": 2
+    },
+    "Name": "Company3",
+    "NumberOfEmployees": 2
+  },
+  {
+    "HrDepartment": {
+      "Vacancies": [
+        "Vacancy7",
+        "Vacancy8"
+      ],
+      "Employees": [
+        {
+          "Name": "Employee7"
+        },
+        {
+          "Name": "Employee8"
+        }
+      ],
+      "NumberOfEmployees": 2
+    },
+    "Name": "Company4",
+    "NumberOfEmployees": 2
+  },
+  {
+    "HrDepartment": {
+      "Vacancies": [
+        "Vacancy9",
+        "Vacancy10"
+      ],
+      "Employees": [
+        {
+          "Name": "Employee9"
+        },
+        {
+          "Name": "Employee10"
+        }
+      ],
+      "NumberOfEmployees": 2
+    },
+    "Name": "Company5",
+    "NumberOfEmployees": 2
+  }
+]

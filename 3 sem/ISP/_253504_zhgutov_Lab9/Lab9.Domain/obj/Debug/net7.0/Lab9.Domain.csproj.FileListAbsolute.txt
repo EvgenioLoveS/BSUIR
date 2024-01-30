@@ -1,0 +1,12 @@
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\bin\Debug\net7.0\Lab9.Domain.deps.json
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\bin\Debug\net7.0\Lab9.Domain.dll
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\bin\Debug\net7.0\Lab9.Domain.pdb
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.csproj.AssemblyReference.cache
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.AssemblyInfoInputs.cache
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.AssemblyInfo.cs
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.csproj.CoreCompileInputs.cache
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.dll
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\refint\Lab9.Domain.dll
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\Lab9.Domain.pdb
+D:\253505\ИСП\_253504_zhgutov_Lab9\Lab9.Domain\obj\Debug\net7.0\ref\Lab9.Domain.dll

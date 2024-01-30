@@ -1,0 +1,21 @@
+# ninja log v5
+8	153	6980709038333831	CMakeFiles/Task3.dir/Expression.cpp.obj	95c7be3ea8e88d57
+21	165	6980709038463432	CMakeFiles/Task3.dir/Number.cpp.obj	5781a1f2e14cb14
+0	495	6980709041756137	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+16	504	6980709041856610	CMakeFiles/Task3.dir/BinaryOperation.cpp.obj	efc8bcda25af9046
+21	162	6984397941346298	CMakeFiles/Task3.dir/Number.cpp.obj	5781a1f2e14cb14
+29	169	6984397941410466	CMakeFiles/Task3.dir/BinaryOperation.cpp.obj	efc8bcda25af9046
+5	502	6984397944729189	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+502	959	6984397949260221	Task3.exe	9085d559f637b1ec
+4	499	6984399844766380	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+500	700	6984399846733043	Task3.exe	9085d559f637b1ec
+4	426	6984400395639967	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+427	565	6984400396991034	Task3.exe	9085d559f637b1ec
+3	429	6984422240498036	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+430	620	6984422242372620	Task3.exe	9085d559f637b1ec
+3	601	6984422704284749	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+601	908	6984422707342952	Task3.exe	9085d559f637b1ec
+5	545	6994615021784166	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+545	892	6994615025209979	Task3.exe	9085d559f637b1ec
+2	351	6994615639463141	CMakeFiles/Task3.dir/main.cpp.obj	c42fd4beaee6d90e
+352	455	6994615640447943	Task3.exe	9085d559f637b1ec

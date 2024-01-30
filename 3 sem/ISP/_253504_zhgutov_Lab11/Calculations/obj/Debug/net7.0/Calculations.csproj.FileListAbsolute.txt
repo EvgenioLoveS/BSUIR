@@ -1,0 +1,12 @@
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\bin\Debug\net7.0\Calculations.deps.json
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\bin\Debug\net7.0\Calculations.dll
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\bin\Debug\net7.0\Calculations.pdb
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.csproj.AssemblyReference.cache
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.AssemblyInfoInputs.cache
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.AssemblyInfo.cs
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.csproj.CoreCompileInputs.cache
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.dll
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\refint\Calculations.dll
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\Calculations.pdb
+D:\253505\3term\ISP-CSharp\_253504_zhgutov_Lab11\Calculations\obj\Debug\net7.0\ref\Calculations.dll

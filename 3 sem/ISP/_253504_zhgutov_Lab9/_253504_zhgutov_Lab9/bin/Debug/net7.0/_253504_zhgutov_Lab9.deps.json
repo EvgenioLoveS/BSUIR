@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "_253504_zhgutov_Lab9/1.0.0": {
+        "dependencies": {
+          "Lab9.Domain": "1.0.0",
+          "SerializerLib": "1.0.0"
+        },
+        "runtime": {
+          "_253504_zhgutov_Lab9.dll": {}
+        }
+      },
+      "Lab9.Domain/1.0.0": {
+        "runtime": {
+          "Lab9.Domain.dll": {}
+        }
+      },
+      "SerializerLib/1.0.0": {
+        "dependencies": {
+          "Lab9.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SerializerLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "_253504_zhgutov_Lab9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lab9.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SerializerLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

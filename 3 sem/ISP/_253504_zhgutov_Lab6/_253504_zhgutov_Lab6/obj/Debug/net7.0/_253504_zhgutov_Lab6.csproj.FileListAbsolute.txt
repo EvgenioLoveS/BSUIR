@@ -1,0 +1,15 @@
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\bin\Debug\net7.0\_253504_zhgutov_Lab6.exe
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\bin\Debug\net7.0\_253504_zhgutov_Lab6.deps.json
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\bin\Debug\net7.0\_253504_zhgutov_Lab6.runtimeconfig.json
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\bin\Debug\net7.0\_253504_zhgutov_Lab6.dll
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\bin\Debug\net7.0\_253504_zhgutov_Lab6.pdb
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.csproj.AssemblyReference.cache
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.AssemblyInfoInputs.cache
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.AssemblyInfo.cs
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.csproj.CoreCompileInputs.cache
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.dll
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\refint\_253504_zhgutov_Lab6.dll
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.pdb
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\_253504_zhgutov_Lab6.genruntimeconfig.cache
+D:\253505\ИСП\_253504_zhgutov_Lab6\_253504_zhgutov_Lab6\obj\Debug\net7.0\ref\_253504_zhgutov_Lab6.dll

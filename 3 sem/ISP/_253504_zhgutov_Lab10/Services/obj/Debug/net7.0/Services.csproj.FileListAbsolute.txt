@@ -1,0 +1,12 @@
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\bin\Debug\net7.0\Services.deps.json
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\bin\Debug\net7.0\Services.dll
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\bin\Debug\net7.0\Services.pdb
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.dll
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\refint\Services.dll
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\Services.pdb
+D:\253505\ИСП\_253504_zhgutov_Lab10\Services\obj\Debug\net7.0\ref\Services.dll
